@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB20B2DF15B39D3900C3D20E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB20B2DE15B39D3900C3D20E /* Cocoa.framework */; };
+		AB20B2E915B39D3900C3D20E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB20B2E715B39D3900C3D20E /* InfoPlist.strings */; };
+		AB20B2EB15B39D3900C3D20E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB20B2EA15B39D3900C3D20E /* main.m */; };
+		AB20B2EF15B39D3900C3D20E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB20B2ED15B39D3900C3D20E /* Credits.rtf */; };
+		AB20B2F215B39D3900C3D20E /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB20B2F115B39D3900C3D20E /* APAppDelegate.m */; };
+		AB20B2F515B39D3900C3D20E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB20B2F315B39D3900C3D20E /* MainMenu.xib */; };
+		AB20B2F815B39D3900C3D20E /* Core_Data_Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB20B2F615B39D3900C3D20E /* Core_Data_Contacts.xcdatamodeld */; };
+		AB844AFC15BA2D3A000233EA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB844AFB15BA2D3A000233EA /* AddressBook.framework */; };
+		AB844B0315BA302B000233EA /* APAddressBookImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB844B0215BA302B000233EA /* APAddressBookImporter.m */; };
+		ABAE49CD15B46EAA00AE69F4 /* EmailAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE49CC15B46EAA00AE69F4 /* EmailAddress.m */; };
+		ABAE49D115B46EAA00AE69F4 /* MailingAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE49D015B46EAA00AE69F4 /* MailingAddress.m */; };
+		ABAE49D415B46EAA00AE69F4 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE49D315B46EAA00AE69F4 /* Address.m */; };
+		ABAE49D715B46EAA00AE69F4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE49D615B46EAA00AE69F4 /* Person.m */; };
+		ABAE49DA15B46EAA00AE69F4 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE49D915B46EAA00AE69F4 /* PhoneNumber.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB20B2DA15B39D3800C3D20E /* Core Data Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB20B2DE15B39D3900C3D20E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB20B2E115B39D3900C3D20E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB20B2E215B39D3900C3D20E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB20B2E315B39D3900C3D20E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB20B2E615B39D3900C3D20E /* Core Data Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data Contacts-Info.plist"; sourceTree = "<group>"; };
+		AB20B2E815B39D3900C3D20E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB20B2EA15B39D3900C3D20E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB20B2EC15B39D3900C3D20E /* Core Data Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core Data Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		AB20B2EE15B39D3900C3D20E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AB20B2F015B39D3900C3D20E /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		AB20B2F115B39D3900C3D20E /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		AB20B2F415B39D3900C3D20E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB20B2F715B39D3900C3D20E /* Core_Data_Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data_Contacts.xcdatamodel; sourceTree = "<group>"; };
+		AB844AFB15BA2D3A000233EA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		AB844B0115BA302B000233EA /* APAddressBookImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAddressBookImporter.h; sourceTree = "<group>"; };
+		AB844B0215BA302B000233EA /* APAddressBookImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAddressBookImporter.m; sourceTree = "<group>"; };
+		ABAE49CB15B46EAA00AE69F4 /* EmailAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAddress.h; sourceTree = "<group>"; };
+		ABAE49CC15B46EAA00AE69F4 /* EmailAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAddress.m; sourceTree = "<group>"; };
+		ABAE49CF15B46EAA00AE69F4 /* MailingAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailingAddress.h; sourceTree = "<group>"; };
+		ABAE49D015B46EAA00AE69F4 /* MailingAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailingAddress.m; sourceTree = "<group>"; };
+		ABAE49D215B46EAA00AE69F4 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		ABAE49D315B46EAA00AE69F4 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		ABAE49D515B46EAA00AE69F4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ABAE49D615B46EAA00AE69F4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		ABAE49D815B46EAA00AE69F4 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		ABAE49D915B46EAA00AE69F4 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB20B2D715B39D3800C3D20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20B2DF15B39D3900C3D20E /* Cocoa.framework in Frameworks */,
+				AB844AFC15BA2D3A000233EA /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB20B2CF15B39D3800C3D20E = {
+			isa = PBXGroup;
+			children = (
+				AB20B2E415B39D3900C3D20E /* Core Data Contacts */,
+				AB20B2DD15B39D3900C3D20E /* Frameworks */,
+				AB20B2DB15B39D3800C3D20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB20B2DB15B39D3800C3D20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB20B2DA15B39D3800C3D20E /* Core Data Contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB20B2DD15B39D3900C3D20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB20B2DE15B39D3900C3D20E /* Cocoa.framework */,
+				AB844AFB15BA2D3A000233EA /* AddressBook.framework */,
+				AB20B2E015B39D3900C3D20E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB20B2E015B39D3900C3D20E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB20B2E115B39D3900C3D20E /* AppKit.framework */,
+				AB20B2E215B39D3900C3D20E /* CoreData.framework */,
+				AB20B2E315B39D3900C3D20E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB20B2E415B39D3900C3D20E /* Core Data Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				AB20B2F015B39D3900C3D20E /* APAppDelegate.h */,
+				AB20B2F115B39D3900C3D20E /* APAppDelegate.m */,
+				AB844B0115BA302B000233EA /* APAddressBookImporter.h */,
+				AB844B0215BA302B000233EA /* APAddressBookImporter.m */,
+				AB20B2F315B39D3900C3D20E /* MainMenu.xib */,
+				AB20B2F615B39D3900C3D20E /* Core_Data_Contacts.xcdatamodeld */,
+				ABAE49D815B46EAA00AE69F4 /* PhoneNumber.h */,
+				ABAE49D915B46EAA00AE69F4 /* PhoneNumber.m */,
+				ABAE49D515B46EAA00AE69F4 /* Person.h */,
+				ABAE49D615B46EAA00AE69F4 /* Person.m */,
+				ABAE49D215B46EAA00AE69F4 /* Address.h */,
+				ABAE49D315B46EAA00AE69F4 /* Address.m */,
+				ABAE49CF15B46EAA00AE69F4 /* MailingAddress.h */,
+				ABAE49D015B46EAA00AE69F4 /* MailingAddress.m */,
+				ABAE49CB15B46EAA00AE69F4 /* EmailAddress.h */,
+				ABAE49CC15B46EAA00AE69F4 /* EmailAddress.m */,
+				AB20B2E515B39D3900C3D20E /* Supporting Files */,
+			);
+			path = "Core Data Contacts";
+			sourceTree = "<group>";
+		};
+		AB20B2E515B39D3900C3D20E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB20B2E615B39D3900C3D20E /* Core Data Contacts-Info.plist */,
+				AB20B2E715B39D3900C3D20E /* InfoPlist.strings */,
+				AB20B2EA15B39D3900C3D20E /* main.m */,
+				AB20B2EC15B39D3900C3D20E /* Core Data Contacts-Prefix.pch */,
+				AB20B2ED15B39D3900C3D20E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB20B2D915B39D3800C3D20E /* Core Data Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB20B2FB15B39D3900C3D20E /* Build configuration list for PBXNativeTarget "Core Data Contacts" */;
+			buildPhases = (
+				AB20B2D615B39D3800C3D20E /* Sources */,
+				AB20B2D715B39D3800C3D20E /* Frameworks */,
+				AB20B2D815B39D3800C3D20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Data Contacts";
+			productName = "Core Data Contacts";
+			productReference = AB20B2DA15B39D3800C3D20E /* Core Data Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB20B2D115B39D3800C3D20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Apress Inc.";
+			};
+			buildConfigurationList = AB20B2D415B39D3800C3D20E /* Build configuration list for PBXProject "Core Data Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB20B2CF15B39D3800C3D20E;
+			productRefGroup = AB20B2DB15B39D3800C3D20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB20B2D915B39D3800C3D20E /* Core Data Contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB20B2D815B39D3800C3D20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20B2E915B39D3900C3D20E /* InfoPlist.strings in Resources */,
+				AB20B2EF15B39D3900C3D20E /* Credits.rtf in Resources */,
+				AB20B2F515B39D3900C3D20E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB20B2D615B39D3800C3D20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20B2EB15B39D3900C3D20E /* main.m in Sources */,
+				AB20B2F215B39D3900C3D20E /* APAppDelegate.m in Sources */,
+				AB20B2F815B39D3900C3D20E /* Core_Data_Contacts.xcdatamodeld in Sources */,
+				ABAE49CD15B46EAA00AE69F4 /* EmailAddress.m in Sources */,
+				ABAE49D115B46EAA00AE69F4 /* MailingAddress.m in Sources */,
+				ABAE49D415B46EAA00AE69F4 /* Address.m in Sources */,
+				ABAE49D715B46EAA00AE69F4 /* Person.m in Sources */,
+				ABAE49DA15B46EAA00AE69F4 /* PhoneNumber.m in Sources */,
+				AB844B0315BA302B000233EA /* APAddressBookImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB20B2E715B39D3900C3D20E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB20B2E815B39D3900C3D20E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB20B2ED15B39D3900C3D20E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB20B2EE15B39D3900C3D20E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AB20B2F315B39D3900C3D20E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB20B2F415B39D3900C3D20E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB20B2F915B39D3900C3D20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB20B2FA15B39D3900C3D20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB20B2FC15B39D3900C3D20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Data Contacts/Core Data Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Core Data Contacts/Core Data Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB20B2FD15B39D3900C3D20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Core Data Contacts/Core Data Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Core Data Contacts/Core Data Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB20B2D415B39D3800C3D20E /* Build configuration list for PBXProject "Core Data Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20B2F915B39D3900C3D20E /* Debug */,
+				AB20B2FA15B39D3900C3D20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB20B2FB15B39D3900C3D20E /* Build configuration list for PBXNativeTarget "Core Data Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB20B2FC15B39D3900C3D20E /* Debug */,
+				AB20B2FD15B39D3900C3D20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB20B2F615B39D3900C3D20E /* Core_Data_Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB20B2F715B39D3900C3D20E /* Core_Data_Contacts.xcdatamodel */,
+			);
+			currentVersion = AB20B2F715B39D3900C3D20E /* Core_Data_Contacts.xcdatamodel */;
+			path = Core_Data_Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB20B2D115B39D3800C3D20E /* Project object */;
+}

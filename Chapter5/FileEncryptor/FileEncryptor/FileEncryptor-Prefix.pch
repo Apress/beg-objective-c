@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FileEncryptor' target in the 'FileEncryptor' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

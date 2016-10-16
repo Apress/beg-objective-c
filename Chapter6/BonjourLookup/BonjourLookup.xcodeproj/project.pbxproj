@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6B88881588C49C0077ABB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6B88871588C49C0077ABB2 /* Foundation.framework */; };
+		AB6B888B1588C49D0077ABB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B888A1588C49D0077ABB2 /* main.m */; };
+		AB6B888F1588C49D0077ABB2 /* BonjourLookup.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB6B888E1588C49D0077ABB2 /* BonjourLookup.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB6B88811588C49C0077ABB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB6B888F1588C49D0077ABB2 /* BonjourLookup.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB6B88831588C49C0077ABB2 /* BonjourLookup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BonjourLookup; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6B88871588C49C0077ABB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB6B888A1588C49D0077ABB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6B888D1588C49D0077ABB2 /* BonjourLookup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BonjourLookup-Prefix.pch"; sourceTree = "<group>"; };
+		AB6B888E1588C49D0077ABB2 /* BonjourLookup.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BonjourLookup.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6B88801588C49C0077ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B88881588C49C0077ABB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6B88781588C49C0077ABB2 = {
+			isa = PBXGroup;
+			children = (
+				AB6B88891588C49C0077ABB2 /* BonjourLookup */,
+				AB6B88861588C49C0077ABB2 /* Frameworks */,
+				AB6B88841588C49C0077ABB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6B88841588C49C0077ABB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B88831588C49C0077ABB2 /* BonjourLookup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6B88861588C49C0077ABB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B88871588C49C0077ABB2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6B88891588C49C0077ABB2 /* BonjourLookup */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B888A1588C49D0077ABB2 /* main.m */,
+				AB6B888E1588C49D0077ABB2 /* BonjourLookup.1 */,
+				AB6B888C1588C49D0077ABB2 /* Supporting Files */,
+			);
+			path = BonjourLookup;
+			sourceTree = "<group>";
+		};
+		AB6B888C1588C49D0077ABB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6B888D1588C49D0077ABB2 /* BonjourLookup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6B88821588C49C0077ABB2 /* BonjourLookup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6B88921588C49D0077ABB2 /* Build configuration list for PBXNativeTarget "BonjourLookup" */;
+			buildPhases = (
+				AB6B887F1588C49C0077ABB2 /* Sources */,
+				AB6B88801588C49C0077ABB2 /* Frameworks */,
+				AB6B88811588C49C0077ABB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourLookup;
+			productName = BonjourLookup;
+			productReference = AB6B88831588C49C0077ABB2 /* BonjourLookup */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6B887A1588C49C0077ABB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = AB6B887D1588C49C0077ABB2 /* Build configuration list for PBXProject "BonjourLookup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB6B88781588C49C0077ABB2;
+			productRefGroup = AB6B88841588C49C0077ABB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6B88821588C49C0077ABB2 /* BonjourLookup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6B887F1588C49C0077ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6B888B1588C49D0077ABB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB6B88901588C49D0077ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB6B88911588C49D0077ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB6B88931588C49D0077ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourLookup/BonjourLookup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB6B88941588C49D0077ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourLookup/BonjourLookup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6B887D1588C49C0077ABB2 /* Build configuration list for PBXProject "BonjourLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6B88901588C49D0077ABB2 /* Debug */,
+				AB6B88911588C49D0077ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6B88921588C49D0077ABB2 /* Build configuration list for PBXNativeTarget "BonjourLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6B88931588C49D0077ABB2 /* Debug */,
+				AB6B88941588C49D0077ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6B887A1588C49C0077ABB2 /* Project object */;
+}

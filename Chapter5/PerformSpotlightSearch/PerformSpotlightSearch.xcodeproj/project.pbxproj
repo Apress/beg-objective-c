@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9CF2A9157E6F4300D636A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CF2A8157E6F4300D636A5 /* Foundation.framework */; };
+		AB9CF2AC157E6F4300D636A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9CF2AB157E6F4300D636A5 /* main.m */; };
+		AB9CF2B0157E6F4300D636A5 /* PerformSpotlightSearch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB9CF2AF157E6F4300D636A5 /* PerformSpotlightSearch.1 */; };
+		AB9CF2B7157E7F2900D636A5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9CF2B6157E7F2900D636A5 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB9CF2A2157E6F4300D636A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB9CF2B0157E6F4300D636A5 /* PerformSpotlightSearch.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB9CF2A4157E6F4300D636A5 /* PerformSpotlightSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerformSpotlightSearch; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CF2A8157E6F4300D636A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB9CF2AB157E6F4300D636A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB9CF2AE157E6F4300D636A5 /* PerformSpotlightSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerformSpotlightSearch-Prefix.pch"; sourceTree = "<group>"; };
+		AB9CF2AF157E6F4300D636A5 /* PerformSpotlightSearch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PerformSpotlightSearch.1; sourceTree = "<group>"; };
+		AB9CF2B6157E7F2900D636A5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9CF2A1157E6F4300D636A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9CF2B7157E7F2900D636A5 /* CoreServices.framework in Frameworks */,
+				AB9CF2A9157E6F4300D636A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9CF299157E6F4300D636A5 = {
+			isa = PBXGroup;
+			children = (
+				AB9CF2AA157E6F4300D636A5 /* PerformSpotlightSearch */,
+				AB9CF2A7157E6F4300D636A5 /* Frameworks */,
+				AB9CF2A5157E6F4300D636A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9CF2A5157E6F4300D636A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CF2A4157E6F4300D636A5 /* PerformSpotlightSearch */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9CF2A7157E6F4300D636A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CF2A8157E6F4300D636A5 /* Foundation.framework */,
+				AB9CF2B6157E7F2900D636A5 /* CoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9CF2AA157E6F4300D636A5 /* PerformSpotlightSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CF2AB157E6F4300D636A5 /* main.m */,
+				AB9CF2AF157E6F4300D636A5 /* PerformSpotlightSearch.1 */,
+				AB9CF2AD157E6F4300D636A5 /* Supporting Files */,
+			);
+			path = PerformSpotlightSearch;
+			sourceTree = "<group>";
+		};
+		AB9CF2AD157E6F4300D636A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9CF2AE157E6F4300D636A5 /* PerformSpotlightSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9CF2A3157E6F4300D636A5 /* PerformSpotlightSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9CF2B3157E6F4300D636A5 /* Build configuration list for PBXNativeTarget "PerformSpotlightSearch" */;
+			buildPhases = (
+				AB9CF2A0157E6F4300D636A5 /* Sources */,
+				AB9CF2A1157E6F4300D636A5 /* Frameworks */,
+				AB9CF2A2157E6F4300D636A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformSpotlightSearch;
+			productName = PerformSpotlightSearch;
+			productReference = AB9CF2A4157E6F4300D636A5 /* PerformSpotlightSearch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9CF29B157E6F4300D636A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = AB9CF29E157E6F4300D636A5 /* Build configuration list for PBXProject "PerformSpotlightSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB9CF299157E6F4300D636A5;
+			productRefGroup = AB9CF2A5157E6F4300D636A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9CF2A3157E6F4300D636A5 /* PerformSpotlightSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9CF2A0157E6F4300D636A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9CF2AC157E6F4300D636A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB9CF2B1157E6F4300D636A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB9CF2B2157E6F4300D636A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB9CF2B4157E6F4300D636A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerformSpotlightSearch/PerformSpotlightSearch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB9CF2B5157E6F4300D636A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerformSpotlightSearch/PerformSpotlightSearch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9CF29E157E6F4300D636A5 /* Build configuration list for PBXProject "PerformSpotlightSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9CF2B1157E6F4300D636A5 /* Debug */,
+				AB9CF2B2157E6F4300D636A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9CF2B3157E6F4300D636A5 /* Build configuration list for PBXNativeTarget "PerformSpotlightSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9CF2B4157E6F4300D636A5 /* Debug */,
+				AB9CF2B5157E6F4300D636A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9CF29B157E6F4300D636A5 /* Project object */;
+}

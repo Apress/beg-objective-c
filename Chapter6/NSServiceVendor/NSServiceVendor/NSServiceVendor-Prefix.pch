@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSServiceVendor' target in the 'NSServiceVendor' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

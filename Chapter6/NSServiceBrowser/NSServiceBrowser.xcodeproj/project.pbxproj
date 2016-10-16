@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABAF30BF158A2A1E00305082 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF30BE158A2A1E00305082 /* Cocoa.framework */; };
+		ABAF30C9158A2A1E00305082 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABAF30C7158A2A1E00305082 /* InfoPlist.strings */; };
+		ABAF30CB158A2A1E00305082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAF30CA158A2A1E00305082 /* main.m */; };
+		ABAF30CF158A2A1E00305082 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABAF30CD158A2A1E00305082 /* Credits.rtf */; };
+		ABAF30D2158A2A1E00305082 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAF30D1158A2A1E00305082 /* SBAppDelegate.m */; };
+		ABAF30D5158A2A1E00305082 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAF30D3158A2A1E00305082 /* MainMenu.xib */; };
+		ABAF30DF158A2E5E00305082 /* SBBrowserControllerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAF30DD158A2E5E00305082 /* SBBrowserControllerWindowController.m */; };
+		ABAF30E0158A2E5E00305082 /* SBBrowserControllerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAF30DE158A2E5E00305082 /* SBBrowserControllerWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABAF30BA158A2A1E00305082 /* NSServiceBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSServiceBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAF30BE158A2A1E00305082 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABAF30C1158A2A1E00305082 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABAF30C2158A2A1E00305082 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABAF30C3158A2A1E00305082 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABAF30C6158A2A1E00305082 /* NSServiceBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSServiceBrowser-Info.plist"; sourceTree = "<group>"; };
+		ABAF30C8158A2A1E00305082 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABAF30CA158A2A1E00305082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABAF30CC158A2A1E00305082 /* NSServiceBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSServiceBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		ABAF30CE158A2A1E00305082 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABAF30D0158A2A1E00305082 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		ABAF30D1158A2A1E00305082 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		ABAF30D4158A2A1E00305082 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABAF30DC158A2E5E00305082 /* SBBrowserControllerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBBrowserControllerWindowController.h; sourceTree = "<group>"; };
+		ABAF30DD158A2E5E00305082 /* SBBrowserControllerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBBrowserControllerWindowController.m; sourceTree = "<group>"; };
+		ABAF30DE158A2E5E00305082 /* SBBrowserControllerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBBrowserControllerWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAF30B7158A2A1E00305082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF30BF158A2A1E00305082 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAF30AF158A2A1D00305082 = {
+			isa = PBXGroup;
+			children = (
+				ABAF30C4158A2A1E00305082 /* NSServiceBrowser */,
+				ABAF30BD158A2A1E00305082 /* Frameworks */,
+				ABAF30BB158A2A1E00305082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAF30BB158A2A1E00305082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF30BA158A2A1E00305082 /* NSServiceBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAF30BD158A2A1E00305082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF30BE158A2A1E00305082 /* Cocoa.framework */,
+				ABAF30C0158A2A1E00305082 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABAF30C0158A2A1E00305082 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF30C1158A2A1E00305082 /* AppKit.framework */,
+				ABAF30C2158A2A1E00305082 /* CoreData.framework */,
+				ABAF30C3158A2A1E00305082 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABAF30C4158A2A1E00305082 /* NSServiceBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF30D0158A2A1E00305082 /* SBAppDelegate.h */,
+				ABAF30D1158A2A1E00305082 /* SBAppDelegate.m */,
+				ABAF30DC158A2E5E00305082 /* SBBrowserControllerWindowController.h */,
+				ABAF30DD158A2E5E00305082 /* SBBrowserControllerWindowController.m */,
+				ABAF30DE158A2E5E00305082 /* SBBrowserControllerWindowController.xib */,
+				ABAF30D3158A2A1E00305082 /* MainMenu.xib */,
+				ABAF30C5158A2A1E00305082 /* Supporting Files */,
+			);
+			path = NSServiceBrowser;
+			sourceTree = "<group>";
+		};
+		ABAF30C5158A2A1E00305082 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF30C6158A2A1E00305082 /* NSServiceBrowser-Info.plist */,
+				ABAF30C7158A2A1E00305082 /* InfoPlist.strings */,
+				ABAF30CA158A2A1E00305082 /* main.m */,
+				ABAF30CC158A2A1E00305082 /* NSServiceBrowser-Prefix.pch */,
+				ABAF30CD158A2A1E00305082 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAF30B9158A2A1E00305082 /* NSServiceBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAF30D8158A2A1E00305082 /* Build configuration list for PBXNativeTarget "NSServiceBrowser" */;
+			buildPhases = (
+				ABAF30B6158A2A1E00305082 /* Sources */,
+				ABAF30B7158A2A1E00305082 /* Frameworks */,
+				ABAF30B8158A2A1E00305082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSServiceBrowser;
+			productName = NSServiceBrowser;
+			productReference = ABAF30BA158A2A1E00305082 /* NSServiceBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAF30B1158A2A1D00305082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = ABAF30B4158A2A1D00305082 /* Build configuration list for PBXProject "NSServiceBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABAF30AF158A2A1D00305082;
+			productRefGroup = ABAF30BB158A2A1E00305082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAF30B9158A2A1E00305082 /* NSServiceBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABAF30B8158A2A1E00305082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF30C9158A2A1E00305082 /* InfoPlist.strings in Resources */,
+				ABAF30CF158A2A1E00305082 /* Credits.rtf in Resources */,
+				ABAF30D5158A2A1E00305082 /* MainMenu.xib in Resources */,
+				ABAF30E0158A2E5E00305082 /* SBBrowserControllerWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAF30B6158A2A1E00305082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF30CB158A2A1E00305082 /* main.m in Sources */,
+				ABAF30D2158A2A1E00305082 /* SBAppDelegate.m in Sources */,
+				ABAF30DF158A2E5E00305082 /* SBBrowserControllerWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABAF30C7158A2A1E00305082 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAF30C8158A2A1E00305082 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABAF30CD158A2A1E00305082 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAF30CE158A2A1E00305082 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABAF30D3158A2A1E00305082 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAF30D4158A2A1E00305082 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABAF30D6158A2A1E00305082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABAF30D7158A2A1E00305082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABAF30D9158A2A1E00305082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSServiceBrowser/NSServiceBrowser-Prefix.pch";
+				INFOPLIST_FILE = "NSServiceBrowser/NSServiceBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABAF30DA158A2A1E00305082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSServiceBrowser/NSServiceBrowser-Prefix.pch";
+				INFOPLIST_FILE = "NSServiceBrowser/NSServiceBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAF30B4158A2A1D00305082 /* Build configuration list for PBXProject "NSServiceBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF30D6158A2A1E00305082 /* Debug */,
+				ABAF30D7158A2A1E00305082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAF30D8158A2A1E00305082 /* Build configuration list for PBXNativeTarget "NSServiceBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF30D9158A2A1E00305082 /* Debug */,
+				ABAF30DA158A2A1E00305082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABAF30B1158A2A1D00305082 /* Project object */;
+}

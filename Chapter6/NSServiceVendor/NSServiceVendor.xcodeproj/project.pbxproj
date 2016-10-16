@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABAF310F158B721300305082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF310E158B721300305082 /* Foundation.framework */; };
+		ABAF3112158B721300305082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAF3111158B721300305082 /* main.m */; };
+		ABAF3116158B721300305082 /* NSServiceVendor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAF3115158B721300305082 /* NSServiceVendor.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABAF3108158B721300305082 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ABAF3116158B721300305082 /* NSServiceVendor.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABAF310A158B721300305082 /* NSServiceVendor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSServiceVendor; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAF310E158B721300305082 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABAF3111158B721300305082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABAF3114158B721300305082 /* NSServiceVendor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSServiceVendor-Prefix.pch"; sourceTree = "<group>"; };
+		ABAF3115158B721300305082 /* NSServiceVendor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSServiceVendor.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAF3107158B721300305082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF310F158B721300305082 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAF30FF158B721300305082 = {
+			isa = PBXGroup;
+			children = (
+				ABAF3110158B721300305082 /* NSServiceVendor */,
+				ABAF310D158B721300305082 /* Frameworks */,
+				ABAF310B158B721300305082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAF310B158B721300305082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF310A158B721300305082 /* NSServiceVendor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAF310D158B721300305082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF310E158B721300305082 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABAF3110158B721300305082 /* NSServiceVendor */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF3111158B721300305082 /* main.m */,
+				ABAF3115158B721300305082 /* NSServiceVendor.1 */,
+				ABAF3113158B721300305082 /* Supporting Files */,
+			);
+			path = NSServiceVendor;
+			sourceTree = "<group>";
+		};
+		ABAF3113158B721300305082 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF3114158B721300305082 /* NSServiceVendor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAF3109158B721300305082 /* VendService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAF3119158B721300305082 /* Build configuration list for PBXNativeTarget "VendService" */;
+			buildPhases = (
+				ABAF3106158B721300305082 /* Sources */,
+				ABAF3107158B721300305082 /* Frameworks */,
+				ABAF3108158B721300305082 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendService;
+			productName = NSServiceVendor;
+			productReference = ABAF310A158B721300305082 /* NSServiceVendor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAF3101158B721300305082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = ABAF3104158B721300305082 /* Build configuration list for PBXProject "NSServiceVendor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABAF30FF158B721300305082;
+			productRefGroup = ABAF310B158B721300305082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAF3109158B721300305082 /* VendService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAF3106158B721300305082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAF3112158B721300305082 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABAF3117158B721300305082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABAF3118158B721300305082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABAF311A158B721300305082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSServiceVendor/NSServiceVendor-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABAF311B158B721300305082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSServiceVendor/NSServiceVendor-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAF3104158B721300305082 /* Build configuration list for PBXProject "NSServiceVendor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF3117158B721300305082 /* Debug */,
+				ABAF3118158B721300305082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAF3119158B721300305082 /* Build configuration list for PBXNativeTarget "VendService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF311A158B721300305082 /* Debug */,
+				ABAF311B158B721300305082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABAF3101158B721300305082 /* Project object */;
+}

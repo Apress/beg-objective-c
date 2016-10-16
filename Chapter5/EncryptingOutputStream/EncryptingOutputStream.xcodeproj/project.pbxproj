@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0EF85A157BDDD200370583 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EF859157BDDD200370583 /* Cocoa.framework */; };
+		AB0EF864157BDDD200370583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB0EF862157BDDD200370583 /* InfoPlist.strings */; };
+		AB0EF868157BDDD200370583 /* EncryptingOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0EF867157BDDD200370583 /* EncryptingOutputStream.m */; };
+		AB0EF870157BDDD200370583 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EF86F157BDDD200370583 /* SenTestingKit.framework */; };
+		AB0EF871157BDDD200370583 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EF859157BDDD200370583 /* Cocoa.framework */; };
+		AB0EF874157BDDD200370583 /* EncryptingOutputStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0EF856157BDDD200370583 /* EncryptingOutputStream.framework */; };
+		AB0EF87A157BDDD200370583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB0EF878157BDDD200370583 /* InfoPlist.strings */; };
+		AB0EF87D157BDDD200370583 /* EncryptingOutputStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0EF87C157BDDD200370583 /* EncryptingOutputStreamTests.m */; };
+		AB0EF88E157BE52800370583 /* EncryptingOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0EF866157BDDD200370583 /* EncryptingOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0EF891157BEC5800370583 /* SimpleRunLoopSource.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0EF88F157BEC5800370583 /* SimpleRunLoopSource.h */; };
+		AB0EF892157BEC5800370583 /* SimpleRunLoopSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0EF890157BEC5800370583 /* SimpleRunLoopSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB0EF872157BDDD200370583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0EF84C157BDDD200370583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0EF855157BDDD200370583;
+			remoteInfo = EncryptingOutputStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0EF856157BDDD200370583 /* EncryptingOutputStream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EncryptingOutputStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0EF859157BDDD200370583 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB0EF85C157BDDD200370583 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB0EF85D157BDDD200370583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB0EF85E157BDDD200370583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB0EF861157BDDD200370583 /* EncryptingOutputStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptingOutputStream-Info.plist"; sourceTree = "<group>"; };
+		AB0EF863157BDDD200370583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB0EF865157BDDD200370583 /* EncryptingOutputStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncryptingOutputStream-Prefix.pch"; sourceTree = "<group>"; };
+		AB0EF866157BDDD200370583 /* EncryptingOutputStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptingOutputStream.h; sourceTree = "<group>"; };
+		AB0EF867157BDDD200370583 /* EncryptingOutputStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptingOutputStream.m; sourceTree = "<group>"; };
+		AB0EF86E157BDDD200370583 /* EncryptingOutputStreamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptingOutputStreamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0EF86F157BDDD200370583 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB0EF877157BDDD200370583 /* EncryptingOutputStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptingOutputStreamTests-Info.plist"; sourceTree = "<group>"; };
+		AB0EF879157BDDD200370583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB0EF87B157BDDD200370583 /* EncryptingOutputStreamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptingOutputStreamTests.h; sourceTree = "<group>"; };
+		AB0EF87C157BDDD200370583 /* EncryptingOutputStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptingOutputStreamTests.m; sourceTree = "<group>"; };
+		AB0EF88F157BEC5800370583 /* SimpleRunLoopSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRunLoopSource.h; sourceTree = "<group>"; };
+		AB0EF890157BEC5800370583 /* SimpleRunLoopSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRunLoopSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0EF852157BDDD200370583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF85A157BDDD200370583 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0EF86A157BDDD200370583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF870157BDDD200370583 /* SenTestingKit.framework in Frameworks */,
+				AB0EF871157BDDD200370583 /* Cocoa.framework in Frameworks */,
+				AB0EF874157BDDD200370583 /* EncryptingOutputStream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0EF84A157BDDD200370583 = {
+			isa = PBXGroup;
+			children = (
+				AB0EF85F157BDDD200370583 /* EncryptingOutputStream */,
+				AB0EF875157BDDD200370583 /* EncryptingOutputStreamTests */,
+				AB0EF858157BDDD200370583 /* Frameworks */,
+				AB0EF857157BDDD200370583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0EF857157BDDD200370583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF856157BDDD200370583 /* EncryptingOutputStream.framework */,
+				AB0EF86E157BDDD200370583 /* EncryptingOutputStreamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0EF858157BDDD200370583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF859157BDDD200370583 /* Cocoa.framework */,
+				AB0EF86F157BDDD200370583 /* SenTestingKit.framework */,
+				AB0EF85B157BDDD200370583 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB0EF85B157BDDD200370583 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF85C157BDDD200370583 /* AppKit.framework */,
+				AB0EF85D157BDDD200370583 /* CoreData.framework */,
+				AB0EF85E157BDDD200370583 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB0EF85F157BDDD200370583 /* EncryptingOutputStream */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF866157BDDD200370583 /* EncryptingOutputStream.h */,
+				AB0EF867157BDDD200370583 /* EncryptingOutputStream.m */,
+				AB0EF88F157BEC5800370583 /* SimpleRunLoopSource.h */,
+				AB0EF890157BEC5800370583 /* SimpleRunLoopSource.m */,
+				AB0EF860157BDDD200370583 /* Supporting Files */,
+			);
+			path = EncryptingOutputStream;
+			sourceTree = "<group>";
+		};
+		AB0EF860157BDDD200370583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF861157BDDD200370583 /* EncryptingOutputStream-Info.plist */,
+				AB0EF862157BDDD200370583 /* InfoPlist.strings */,
+				AB0EF865157BDDD200370583 /* EncryptingOutputStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0EF875157BDDD200370583 /* EncryptingOutputStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF87B157BDDD200370583 /* EncryptingOutputStreamTests.h */,
+				AB0EF87C157BDDD200370583 /* EncryptingOutputStreamTests.m */,
+				AB0EF876157BDDD200370583 /* Supporting Files */,
+			);
+			path = EncryptingOutputStreamTests;
+			sourceTree = "<group>";
+		};
+		AB0EF876157BDDD200370583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0EF877157BDDD200370583 /* EncryptingOutputStreamTests-Info.plist */,
+				AB0EF878157BDDD200370583 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB0EF853157BDDD200370583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF88E157BE52800370583 /* EncryptingOutputStream.h in Headers */,
+				AB0EF891157BEC5800370583 /* SimpleRunLoopSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB0EF855157BDDD200370583 /* EncryptingOutputStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0EF880157BDDD200370583 /* Build configuration list for PBXNativeTarget "EncryptingOutputStream" */;
+			buildPhases = (
+				AB0EF851157BDDD200370583 /* Sources */,
+				AB0EF852157BDDD200370583 /* Frameworks */,
+				AB0EF853157BDDD200370583 /* Headers */,
+				AB0EF854157BDDD200370583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptingOutputStream;
+			productName = EncryptingOutputStream;
+			productReference = AB0EF856157BDDD200370583 /* EncryptingOutputStream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB0EF86D157BDDD200370583 /* EncryptingOutputStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0EF883157BDDD200370583 /* Build configuration list for PBXNativeTarget "EncryptingOutputStreamTests" */;
+			buildPhases = (
+				AB0EF869157BDDD200370583 /* Sources */,
+				AB0EF86A157BDDD200370583 /* Frameworks */,
+				AB0EF86B157BDDD200370583 /* Resources */,
+				AB0EF86C157BDDD200370583 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0EF873157BDDD200370583 /* PBXTargetDependency */,
+			);
+			name = EncryptingOutputStreamTests;
+			productName = EncryptingOutputStreamTests;
+			productReference = AB0EF86E157BDDD200370583 /* EncryptingOutputStreamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0EF84C157BDDD200370583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Apress;
+			};
+			buildConfigurationList = AB0EF84F157BDDD200370583 /* Build configuration list for PBXProject "EncryptingOutputStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB0EF84A157BDDD200370583;
+			productRefGroup = AB0EF857157BDDD200370583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0EF855157BDDD200370583 /* EncryptingOutputStream */,
+				AB0EF86D157BDDD200370583 /* EncryptingOutputStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0EF854157BDDD200370583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF864157BDDD200370583 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0EF86B157BDDD200370583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF87A157BDDD200370583 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB0EF86C157BDDD200370583 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0EF851157BDDD200370583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF868157BDDD200370583 /* EncryptingOutputStream.m in Sources */,
+				AB0EF892157BEC5800370583 /* SimpleRunLoopSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0EF869157BDDD200370583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0EF87D157BDDD200370583 /* EncryptingOutputStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB0EF873157BDDD200370583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0EF855157BDDD200370583 /* EncryptingOutputStream */;
+			targetProxy = AB0EF872157BDDD200370583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB0EF862157BDDD200370583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0EF863157BDDD200370583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB0EF878157BDDD200370583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0EF879157BDDD200370583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0EF87E157BDDD200370583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB0EF87F157BDDD200370583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB0EF881157BDDD200370583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptingOutputStream/EncryptingOutputStream-Prefix.pch";
+				INFOPLIST_FILE = "EncryptingOutputStream/EncryptingOutputStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AB0EF882157BDDD200370583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptingOutputStream/EncryptingOutputStream-Prefix.pch";
+				INFOPLIST_FILE = "EncryptingOutputStream/EncryptingOutputStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		AB0EF884157BDDD200370583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptingOutputStream/EncryptingOutputStream-Prefix.pch";
+				INFOPLIST_FILE = "EncryptingOutputStreamTests/EncryptingOutputStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AB0EF885157BDDD200370583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptingOutputStream/EncryptingOutputStream-Prefix.pch";
+				INFOPLIST_FILE = "EncryptingOutputStreamTests/EncryptingOutputStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0EF84F157BDDD200370583 /* Build configuration list for PBXProject "EncryptingOutputStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0EF87E157BDDD200370583 /* Debug */,
+				AB0EF87F157BDDD200370583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0EF880157BDDD200370583 /* Build configuration list for PBXNativeTarget "EncryptingOutputStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0EF881157BDDD200370583 /* Debug */,
+				AB0EF882157BDDD200370583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0EF883157BDDD200370583 /* Build configuration list for PBXNativeTarget "EncryptingOutputStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0EF884157BDDD200370583 /* Debug */,
+				AB0EF885157BDDD200370583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0EF84C157BDDD200370583 /* Project object */;
+}

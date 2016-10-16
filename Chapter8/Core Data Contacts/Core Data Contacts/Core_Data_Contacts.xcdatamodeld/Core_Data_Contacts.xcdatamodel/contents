@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12A269" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Address" representedClassName="Address" isAbstract="YES" syncable="YES">
+        <attribute name="label" attributeType="String" defaultValueString="Home" syncable="YES"/>
+    </entity>
+    <entity name="EmailAddress" representedClassName="EmailAddress" parentEntity="Address" syncable="YES">
+        <attribute name="email" attributeType="String" defaultValueString="johnnyappleseed@me.com" syncable="YES"/>
+        <relationship name="person" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="emailAddresses" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="MailingAddress" representedClassName="MailingAddress" parentEntity="Address" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="mailingAddresses" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" defaultValueString="John" syncable="YES"/>
+        <attribute name="fullName" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" defaultValueString="Appleseed" indexed="YES" syncable="YES"/>
+        <relationship name="emailAddresses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="EmailAddress" inverseName="person" inverseEntity="EmailAddress" syncable="YES"/>
+        <relationship name="mailingAddresses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MailingAddress" inverseName="person" inverseEntity="MailingAddress" syncable="YES"/>
+        <relationship name="phoneNumbers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PhoneNumber" inverseName="person" inverseEntity="PhoneNumber" syncable="YES"/>
+    </entity>
+    <entity name="PhoneNumber" representedClassName="PhoneNumber" parentEntity="Address" syncable="YES">
+        <attribute name="phoneNumber" attributeType="String" defaultValueString="(123) 456-7890" indexed="YES" syncable="YES"/>
+        <relationship name="person" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="phoneNumbers" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Address" positionX="-9" positionY="126" width="128" height="58"/>
+        <element name="EmailAddress" positionX="16" positionY="261" width="128" height="75"/>
+        <element name="MailingAddress" positionX="171" positionY="239" width="128" height="135"/>
+        <element name="Person" positionX="-351" positionY="239" width="128" height="135"/>
+        <element name="PhoneNumber" positionX="-153" positionY="243" width="128" height="75"/>
+    </elements>
+</model>
