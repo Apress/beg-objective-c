@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Core Data Contacts' target in the 'Core Data Contacts' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
